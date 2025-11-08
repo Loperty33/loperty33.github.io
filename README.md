@@ -1,1 +1,120 @@
-# loperty33.github.io
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Leandro Henrique</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117;
+      color: #e6edf3;
+    }
+
+    header {
+      background-color: #161b22;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid #30363d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #58a6ff;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+      color: #8b949e;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      color: #58a6ff;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 0.3rem;
+    }
+
+    .foto {
+      display: block;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin: 1rem auto;
+      border: 3px solid #30363d;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #161b22;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Leandro Henrique de Oliveira Borda</h1>
+    <p>Estudante de Jogos Digitais | FATEC Ourinhos</p>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <img src="https://avatars.githubusercontent.com/u/0?v=4" alt="Foto de Leandro" class="foto">
+      <p>Sou desenvolvedor de jogos 2D apaixonado por criar experiências únicas e envolventes. Gosto de unir narrativa e gameplay em projetos independentes como <strong>The Morph Man</strong> e <strong>Bark Survival</strong>.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <ul>
+        <li><a href="https://github.com/LeandroHenrique/TheMorphMan" target="_blank">🎮 The Morph Man</a></li>
+        <li><a href="https://github.com/LeandroHenrique/BarkSurvival" target="_blank">🐾 Bark Survival</a></li>
+        <li><a href="https://github.com/LeandroHenrique/TheCaseOfTheRoyalCheese" target="_blank">🧀 The Case of the Royal Cheese</a></li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>📧 Email: <a href="mailto:leandro@example.com">leandro@example.com</a></p>
+      <p>💼 GitHub: <a href="https://github.com/LeandroHenrique" target="_blank">github.com/LeandroHenrique</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Leandro Henrique — Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
